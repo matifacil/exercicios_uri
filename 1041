@@ -1,0 +1,32 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main() {
+	double x,y;
+	while(cin>>x>>y){
+	if (x>0 && y>0){
+	cout<<"Q1"<<endl;
+	break;
+	}else if (x>0 && y<0){
+	cout<<"Q4"<<endl;
+	break;
+	}else if(x<0 && y>0){
+	cout<<"Q2"<<endl;
+	break;
+	}else if(x<0 && y<0){
+	cout<<"Q3"<<endl;
+	break;
+	}else if(x==0 && y==0){
+	cout<<"Origem"<<endl;
+	break;
+	}else if(x==0 && y!=0){
+	cout<<"Eixo Y"<<endl;
+	break;
+	}else if(x!=0 && y==0){
+	cout<<"Eixo X"<<endl;
+	break;
+	}
+}
+}
