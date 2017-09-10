@@ -1,0 +1,44 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main() {
+	string a,b,c;
+	cin >> a;
+	cin >> b;
+	cin >> c;
+	while(true){
+      if (a == "vertebrado" && b == "ave" && c == "carnivoro"){
+        cout<<"aguia"<<endl;
+        break;
+      }if ( a=="vertebrado" && b=="ave" && c == "onivoro"){
+        cout<<"pomba"<<endl;
+        break;	
+      }if(a== "vertebrado" && b== "mamifero" && c== "onivoro"){
+        cout<<"homem"<<endl;
+        break;
+      }if(a== "vertebrado" && b== "mamifero" && c=="herbivoro"){
+        cout<<"vaca"<<endl;
+        break;
+      }if( a=="invertebrado" && b=="inseto" && c=="hematofago"){
+        cout<<"pulga"<<endl;
+        break;
+      }if (a=="invertebrado" && b=="inseto" && c=="herbivoro"){
+        cout<<"lagarta"<<endl;
+        break;
+      }if (a=="invertebrado" && b=="anelideo" && c=="hematofago"){
+        cout<<"sanguessuga"<<endl;
+        break;
+      }if(a=="invertebrado" && b=="anelideo" && c=="onivoro"){
+        cout<<"minhoca"<<endl;
+        break;
+      }
+
+   }
+	
+	
+	return 0;
+}
+
+
