@@ -1,0 +1,14 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+
+using namespace std;
+
+int main() 
+{
+    int a,b,c,d;
+    cin >> a>>b>>c;
+	  d =(a+b+abs(a-b))/2;
+    cout<<((d+c+abs(d-c)))/2<<" eh o maior"<<endl;
+	  return 0;    
+}
