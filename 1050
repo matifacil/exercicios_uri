@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	int a;
+	while(cin>> a){
+      if (a==61){
+        cout<<"Brasilia"<<endl;
+        break;
+      }else if(a==71){
+        cout<<"Salvador"<<endl;
+        break;
+      }else if(a==11){
+        cout<<"Sao Paulo"<<endl;
+        break;
+      }else if(a==21){
+        cout<<"Rio de Janeiro"<<endl;
+        break;
+      }else if (a==32){
+        cout<<"Juiz de Fora"<<endl;
+        break;
+      }else if (a==19){
+        cout<<"Campinas"<<endl;
+        break;
+      }else if(a==27){
+        cout<<"Vitoria"<<endl;
+        break;
+      }else if(a==31){
+        cout<<"Belo Horizonte"<<endl;
+        break;
+      }
+      cout<<"DDD nao cadastrado"<<endl;
+      return 0;	
+    }
+}
